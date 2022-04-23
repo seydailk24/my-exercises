@@ -1,0 +1,13 @@
+#takes a sentence from the user,
+counts the number of each letter of the sentence,
+collects the letters/chars as a key and the counted numbers as a value in a dictionary.
+
+
+a = input(str("write a sentence: "))
+b = {}
+for i in a:
+  if i in b:
+    b[i] += 1 
+  else:
+    b[i] = 1
+print(f'count of all characters in {a} is :\n' + str(b))

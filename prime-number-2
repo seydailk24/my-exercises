@@ -1,0 +1,19 @@
+
+
+
+def prime_number():
+    for num in range(2, 101):
+      prime = True
+      for i in range(2, num):
+          if (num % i == 0):
+             prime = False
+      if prime and num not in num_list:
+         num_list.append(num)
+      else:
+          pass
+    return num_list
+
+
+num_list = []
+prime_number()
+print(num_list)

@@ -1,0 +1,13 @@
+#Create a list consisting of Fibonacci numbers from 1 to 55 using control flow statements
+#Find Fibonacci number
+
+
+
+a = 1
+b = 1
+fib_list = []
+while a <= 55 :
+  fib_list.append(a)
+  c = a + b
+  a = b
+  b = c 

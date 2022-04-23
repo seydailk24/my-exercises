@@ -1,0 +1,11 @@
+while True:
+    number = input("Enter a number : ")
+    lenghth = len(number)
+    total = 0
+    for i in range(lenghth):
+        total = total + int(number[i]) ** lenghth
+    if(total==int(number)):
+        print("The Number You Entered Is An Armstrong Number!")
+    else:
+        print("The Number You Entered Armstrong Is Not A Number!")
+ 
